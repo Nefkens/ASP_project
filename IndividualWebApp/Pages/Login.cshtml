@@ -1,0 +1,52 @@
+﻿@page
+@model IndividualWebApp.Pages.LoginModel
+@{
+	ViewData["Title"] = "Login page";
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Login.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="angry-grid">
+        <div id="item-0">
+            <h2 class="Header">Tabber™</h2>
+        </div>
+        <a href="/index" id="hrefs">
+            <div id="backbutton">
+                <img src="images/arrow.png" height="100px" width="120px" />
+            </div>
+        </a>
+        <div id="item-1">
+            <div>
+                <div id="header-text">Login or register</div>
+            </div>
+        </div>
+        <div id="item-2">
+            <div id="formcontainer">
+                <label for="Username" id="usernameloginlabel">Log in with existing account :</label>
+                <input type="text" id="usernameloginfield" name="naam" placeholder="Type in your username...">
+                <input type="text" id="passwordloginfield" name="password" placeholder="Type in your password...">
+                <input type="submit" value="submit">
+            </div>
+            <img src="images/tabs.png" alt="tabs" id="tabs" width="295px">
+            <div id="formcontainer">
+                <label for="Username" id="usernamecreatelabel">Create an account:</label>
+                <input type="text" id="usernamecreatefield" name="naam" placeholder="Type in a username...">
+                <input type="text" id="passwordcreatefield" name="password" placeholder="Type in a password...">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div id="item-3">&nbsp;</div>
+        <div id="item-4">
+            <div id="footer">© 2025 Tabber™ - All rights reserved.</div>
+        </div>
+    </div>
+</body>
+</html>
