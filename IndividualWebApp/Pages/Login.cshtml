@@ -18,12 +18,30 @@
         <div id="item-0">
             <h2 class="Header">Tabber™</h2>
         </div>
-        <a href="/index" id="hrefs">
-            <div id="backbutton">
-                <img src="images/arrow.png" height="100px" width="120px" />
-            </div>
-        </a>
+        <div class="scroll-container">
+            <img src="~/images/tabbackground.png" alt="TabImage1">
+            <img src="~/images/tabbackground.png" alt="TabImage2">
+            <img src="~/images/tabbackground.png" alt="TabImage3">
+            <img src="~/images/tabbackground.png" alt="TabImage4">
+            <img src="~/images/tabbackground.png" alt="TabImage5">
+            <img src="~/images/tabbackground.png" alt="TabImage6">
+            <img src="~/images/tabbackground.png" alt="TabImage7">
+            <img src="~/images/tabbackground.png" alt="TabImage8">
+            <img src="~/images/tabbackground.png" alt="TabImage9">
+            <img src="~/images/tabbackground.png" alt="TabImage10">
+            <img src="~/images/tabbackground.png" alt="TabImage11">
+            <img src="~/images/tabbackground.png" alt="TabImage12">
+            <img src="~/images/tabbackground.png" alt="TabImage13">
+            <img src="~/images/tabbackground.png" alt="TabImage14">
+            <img src="~/images/tabbackground.png" alt="TabImage15">
+            <img src="~/images/tabbackground.png" alt="TabImage16">
+        </div>
         <div id="item-1">
+            <a href="/index" id="hrefs">
+                <div id="backbutton">
+                    <img src="images/arrow.png" height="100px" width="110px" />
+                </div>
+            </a>
             <div>
                 <div id="header-text">Login or register</div>
             </div>
@@ -33,14 +51,22 @@
                 <label for="Username" id="usernameloginlabel">Log in with existing account :</label>
                 <input type="text" id="usernameloginfield" name="naam" placeholder="Type in your username...">
                 <input type="text" id="passwordloginfield" name="password" placeholder="Type in your password...">
-                <input type="submit" value="submit">
+                <a href="/SearchTab" class="href">
+                    <div class="buttons">
+                        <div class="button-text">Confirm</div>
+                    </div>
+                </a>
             </div>
             <img src="images/tabs.png" alt="tabs" id="tabs" width="295px">
             <div id="formcontainer">
                 <label for="Username" id="usernamecreatelabel">Create an account:</label>
                 <input type="text" id="usernamecreatefield" name="naam" placeholder="Type in a username...">
                 <input type="text" id="passwordcreatefield" name="password" placeholder="Type in a password...">
-                <input type="submit" value="submit">
+                <a href="/SearchTab" class="href">
+                    <div class="buttons">
+                        <div class="button-text">Confirm</div>
+                    </div>
+                </a>
             </div>
         </div>
         <div id="item-3">&nbsp;</div>
@@ -48,5 +74,6 @@
             <div id="footer">© 2025 Tabber™ - All rights reserved.</div>
         </div>
     </div>
+    <script src="~/js/scrollingTab.js"></script>
 </body>
 </html>
