@@ -31,6 +31,17 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#loginImage {
+    max-width: 100%;
+    height: auto;
+    padding-left: 1300px;
+    margin: -10px;
+    z-index: 5;
+}
+
+#test{
+    pointer-events: none;
+}
 
 .button-text {
     color: white;
@@ -87,7 +98,8 @@ body {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
-#item-0 {
+#item-0 {   
+
     background-color: rgba(0, 0, 0, 0.0);
     grid-row-start: 1;
     grid-column-start: 1;

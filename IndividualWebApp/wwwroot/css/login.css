@@ -160,6 +160,14 @@ body {
     font-size: 20px;
 }
 
+#loginImage {
+    max-width: 100%;
+    height: auto;
+    padding-left: 1300px;
+    margin: -10px;
+    z-index: 5;
+}
+
 #usernamecreatefield {
     height: 50px;
     font-size: 20px;
