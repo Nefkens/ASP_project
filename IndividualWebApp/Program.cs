@@ -1,7 +1,15 @@
+using BLL.Interfaces;
+using DAL.Data;
+using DAL.Interfaces;
+using BLL.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddScoped<IUserService, UserServices>();
+builder.Services.AddScoped<IUserRepo, UserRepo>();
 
 var app = builder.Build();
 

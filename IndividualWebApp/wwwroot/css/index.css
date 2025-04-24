@@ -11,6 +11,7 @@
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
     }
 
+
     .scroll-container {
         display: flex;
         pointer-events: none;
@@ -40,7 +41,6 @@
     }
 
     .buttons {
-        justify-content: center;
         text-align: center;
         padding-top: 40px;
         border-radius: 10px;
